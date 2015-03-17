@@ -10,7 +10,7 @@ namespace E2ETests
 {
     public partial class SmokeTests
     {
-        //[ConditionalTheory]
+        [ConditionalTheory]
         [FrameworkSkipCondition(RuntimeFrameworks.Mono)]
         [InlineData(ServerType.IISExpress, RuntimeFlavor.DesktopClr, RuntimeArchitecture.x86, "http://localhost:5001/", false)]
         [InlineData(ServerType.IISExpress, RuntimeFlavor.DesktopClr, RuntimeArchitecture.x86, "http://localhost:5001/", true)]
