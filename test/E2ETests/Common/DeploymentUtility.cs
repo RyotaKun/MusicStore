@@ -96,7 +96,7 @@ namespace E2ETests
                     else
 #endif
                     {
-                        KpmBundle(startParameters, logger, Path.Combine(Environment.GetEnvironmentVariable("HOMEDRIVE"), "test"));
+                        KpmBundle(startParameters, logger, "c:\\test");
                     }
                 }
 
